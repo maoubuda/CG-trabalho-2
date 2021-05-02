@@ -7,7 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, user-scalable=yes"
     />
-    <title>WebGL2 - 2D Geometry Rotation</title>
+    <title>Trabalho de CG</title>
     <link
       type="text/css"
       href="resources/webgl-tutorials.css"
@@ -16,8 +16,11 @@
   </head>
   <body>
     <div class="description">
-      Arraste os controles deslizantes para o movimento de translação.<br />
+      <span>Computação Gráfica-  Trabalho 2 - Implementação C</span>
+      <div></div>
+      Arraste os controles deslizantes para movimentar o triângulo.
     </div>
+    </br>
     <canvas id="canvas"></canvas>
     <div id="uiContainer">
       <div id="ui">
@@ -28,11 +31,14 @@
         <div id="escalaY"></div>
       </div>
     </div>
-    <div><button onClick="refreshPage()">Resetar</button></div>
+    </br>
+    </br>
+    <div><button class= "reset" onClick="refreshPage()">Resetar</button></div>
   </body>
   <script>
     function refreshPage() {
       window.location.reload();
+      
     }
   </script>
   <script src="resources/jquery-1.7.1.min.js"></script>

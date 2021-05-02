@@ -11,17 +11,34 @@ html {
 }
 
 body {
-  background-color: #aaa;
+  /* background-color:rgba(79, 172, 117, 0.6); */
   font-family: Sans-Serif;
+  height: auto;
+  padding: 40px 0;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid #980021;
+  box-shadow: inset 0 2px 3px 0 rgba(255, 255, 255, 0.3),
+    inset 0 -3px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 2px 0 rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(to bottom, #2b78cf, #1e9800 130%);
 }
 
 canvas {
   background-color: #fff;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  border: none;
   /* NOTE: This size is changed if in iframe - see below '.iframe canvas' */
   width: 400px;
   height: 300px;
-  display: block;
+  /* display: block; */
+  align-self : center;
+}
+
+#names{
+  display:block;
+  align-items: center;
 }
 
 #uiContainer {
@@ -32,8 +49,8 @@ canvas {
   font-family: monospace;
   pointer-events: none;
 
-  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
-    1px 1px 0 #fff;
+  /* text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
+    1px 1px 0 #fff; */
 }
 #ui {
   opacity: 0.8;
@@ -46,6 +63,24 @@ canvas {
 #ui option,
 #ui canvas {
   pointer-events: auto;
+}
+
+.reset {
+  border: 1px solid #25692a;
+  border-radius: 4px;
+  display: inline-block;
+  cursor: pointer;
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 6px 10px;
+  text-decoration: none;
+
+  border-color: #68b465;
+  background: linear-gradient(to bottom, #abd5aa 5%, #68b465 100%);
+  box-shadow: inset 0px 1px 0px 0px #e3f1e3;
+  color: #fff;
+  text-shadow: 0px 1px 0px #528009;
 }
 
 .gman-slider-label,
