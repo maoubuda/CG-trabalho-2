@@ -1,2 +1,6 @@
 # CG-trabalho-2
-Patrik Castro Ferreira
+Lucas Lima Soares Pinto  <br/>
+Patrik Castro Ferreira  <br/>
+Robson de Sousa dos Santos  <br/>
+# Baseado em :
+https://webgl2fundamentals.org/
